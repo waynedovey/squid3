@@ -24,7 +24,7 @@ class squid3 (
   $maximum_object_size_in_memory = '512 KB',
   $config_hash                   = {},
   $refresh_patterns              = [],
-  $template                      = 'long',
+  $template                      = 'short',
   $package_version               = 'installed',
   $package_name                  = $::squid3::params::package_name,
   $service_ensure                = 'running',
